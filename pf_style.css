@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Song+Myung&family=Sunflower:wght@300&display=swap');
+        
+body {
+ margin: 0;
+ min-height: 100vh;
+ background:
+   repeating-linear-gradient(
+     0deg, #FFCF50  1px, transparent 2px 50px
+   ),
+   repeating-linear-gradient(
+     90deg, #FFCF50  1px, transparent 2px 45px
+   ),
+   #fcf9e4;
+ } 
+         h1 {
+            font-family: "Morai", serif;
+            font-size: 60px;
+            text-align: center;
+            -webkit-text-fill-color: #FFCF50;
+           
+        }
+
+        h2{
+            font-family: "Morai", serif;
+            font-size: 35px;
+            text-align: right;
+            -webkit-text-fill-color: #FFCF50;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-family: "Morai", serif;
+            font-size: 20px;
+            text-align: right;
+            -webkit-text-fill-color: #80BCBD;
+            margin-bottom: 5px;
+        }
+        h4 {
+          display: block;              
+          font-size: 15px;
+          font-family: "Morai", serif;
+          border: 5px solid #FFCF50;   
+          background-color: #80BCBD;
+          width: fit-content;          
+          margin: 0 auto;             
+          text-align: center;
+          padding: 10px;
+        }
+
+        .intro{
+            font-family: "Morai", serif;
+            font-size: 16px;
+            text-align: center;
+            
+        }
+        #grid {   
+            display: flex;
+            justify-content: center;   
+            align-items: center;       
+            gap: 105px;                 
+
+            max-width: 1000px;         
+            width: 90%;                  
+            margin: 0 auto;              
+            padding: 20px 0;             
+        }
+
+        #grid_2 {   
+            display: flex;
+            justify-content: center;   
+            align-items: center;       
+            gap: 10px;                  
+
+            margin-top: 20px;             
+            padding: 20px 0;             
+        }
+
+        .picture {
+          max-width: 420px;       
+          border-radius: 12px;
+          box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
