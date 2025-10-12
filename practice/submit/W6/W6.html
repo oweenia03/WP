@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MiniBooks</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* HTML 파일 내의 인라인 스타일은 CSS 파일로 옮기거나 최소화 */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* 네비게이션 바 높이를 고려하여 main 콘텐츠가 시작되는 위치 조정 */
+        .main-content-grid {
+            margin-top: 96px; /* .nav의 height (93px) + border-bottom (3px) */
+        }
+    </style>
+</head>
+<body>
+
+        <div class="nav">
+        <div class="left_menu">
+            <h2><a href="index.html">MiniBooks</a></h2>
+            <p class="subtitle">즐거움의 시작 : 미니북스</p>
+        </div>
+        
+        <div class="middle_menu">
+            <ul>
+                <li><a href="#" class="nav-item active">책장</a></li>
+                <li><a href="#" class="nav-item">캐시 충전</a></li>
+                <li><a href="#" class="nav-item">마이페이지</a></li>
+            </ul>
+        </div>
+        
+        <div class="right_profile">
+            <img src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/user-profile.png" alt="profile">
+        </div>
+    </div>
+        
+    <main class="main-content-grid">
+    <section class="favorite-bookshelves">
+        <div class="section-header">
+            <h2 class="section-title" style="margin-top:10px;">즐겨찾기한 도서</h2>
+            <div class="search-area">
+                <div class="search-box-container">
+                    <input type="text" placeholder="도서 검색" class="input-basic search-input">
+                </div>
+            </div>
+        </div>
+        <div class="horizontal-scroll-section">
+            <div class="bookshelf-row">
+                <div class="book-card card-design-1 favorite">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/패스파인더.jpg"  alt="패스파인더 책 표지">
+                    <p class="book-title text-small">패스파인더</p>
+                    
+                    <a href="#" class="star-icon star-filled"></a> 
+                </div>
+                <div class="book-card card-design-2 favorite">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/어바등.webp"  alt="어두운 바다의 등불이 되어 책 표지">
+                    <p class="book-title text-small">어두운 바다의 등불이 되어</p>
+                    <a href="#" class="star-icon star-filled"></a>
+                </div>
+                <div class="book-card card-design-1 favorite">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/창편법.jpg" alt="창조주의 편애법 책 표지">
+                    <p class="book-title text-small">창조주의 편애법</p>
+                    <a href="#" class="star-icon star-filled"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="all-bookshelves">
+        <h2 class="section-title">모든 도서</h2>
+        <div class="horizontal-scroll-section">
+            <div class="bookshelf-row">
+                <div class="book-card card-design-2">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/테라리움.webp" alt="테라리움 어드벤처 책 표지">
+                    <p class="book-title text-small">테라리움 어드벤처</p>
+                    <a href="#" class="star-icon star-empty"></a> 
+                </div>
+                <div class="book-card card-design-1">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/구요법.jpg" alt="구원자의 요리법 책 표지">
+                    <p class="book-title text-small">구원자의 요리법</p>
+                    <a href="#" class="star-icon star-empty"></a>
+                </div>
+                <div class="book-card card-design-2">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/동백꽃.jpg" alt="동백꽃 책 표지">
+                    <p class="book-title text-small">동백꽃</p>
+                    <a href="#" class="star-icon star-empty"></a>
+                </div>
+                <div class="book-card card-design-1">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/사영제국.jpeg" alt="사이코 여왕의 대영제국 책 표지">
+                    <p class="book-title text-small">사이코 여왕의 대영제국</p>
+                    <a href="#" class="star-icon star-empty"></a>
+                </div>
+                <div class="book-card card-design-2">
+                    <img class="book-cover-image" src="https://raw.githubusercontent.com/oweenia03/WP/WP/W6/심꿰독.jpg"alt="심장을 꿰뚫은 독니 책 표지">
+                    <p class="book-title text-small">심장을 꿰뚫은 독니</p>
+                    <a href="#" class="star-icon star-empty"></a>
+                </div>
+                <button class="scroll-button next-button color-star-blue">></button>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
